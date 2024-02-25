@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="fond">#15232E</color>
+    <color name="orange">#FF8100</color>
+    <color name="fond_carte">#1E3243</color>
+    <color name="element_carte">#284C6A</color>
+    <color name="fond_voir_plus">#0F1921</color>
+    <color name="background_bottom_bar">#0F1E2B</color>
+    <color name="fond_bottom_bar_select">#12273C</color>
+    <color name="text_bottom_bar_select">#12273C</color>
+    <color name="text_bottom_bar">#778BA8</color>
 </resources>
