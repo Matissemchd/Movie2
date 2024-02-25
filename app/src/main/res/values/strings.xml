@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">Movie2</string>
+    <string name="app_name">Movie Series App</string>
+
+    <!-- Titres pour les fragments -->
+    <string name="menu_series_list">Séries les plus populaires</string>
+    <string name="menu_series_detail">Détails sur une série</string>
+
+    <!-- Descriptions d'image pour l'accessibilité -->
+    <string name="serie_image">Image de la série</string>
+
+    <!-- Textes de l'interface utilisateur -->
+    <string name="title_agents_of_shield">Agents of S.H.I.E.L.D.</string>
+    <string name="title_arrow">Arrow</string>
+    <string name="title_wolverine_and_the_x_men">Wolverine and the X-Men</string>
+    <string name="title_the_x_files">The X-Files</string>
+
+    <!-- Autres chaînes de caractères utilisées dans l'application -->
+    <string name="publisher_marvel">Marvel</string>
+    <string name="publisher_dc_comics">DC Comics</string>
+    <string name="publisher_idw_publishing">IDW Publishing</string>
+    <string name="episodes">épisodes</string>
+    <string name="home">Accueil</string>
+    <string name="comics">Comics</string>
+    <string name="movies">Films</string>
+    <string name="search">Recherche</string>
+    <string name="series">Séries</string>
+    <!-- Ajoutez d'autres chaînes au besoin -->
 </resources>
