@@ -6,5 +6,6 @@ object DataProvider {
         Serie(2, "Arrow", "DC Comics", 170, 2012, R.drawable.arrow),
         Serie(3, "Arrow", "DC Comics", 170, 2012, R.drawable.arrow),
         Serie(4, "Arrow", "DC Comics", 170, 2012, R.drawable.arrow),
+        Serie(5, "Arrow", "DC Comics", 170, 2012, R.drawable.arrow),
     )
 }
