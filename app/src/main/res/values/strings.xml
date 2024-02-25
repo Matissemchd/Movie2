@@ -4,6 +4,11 @@
     <!-- Titres pour les fragments -->
     <string name="menu_series_list">Séries les plus populaires</string>
     <string name="menu_series_detail">Détails sur une série</string>
+    <!-- Titres des listes -->
+    <string name="series_list">Séries populaires</string>
+    <string name="comics_list">Comics populaires</string>
+    <string name="film_list">Films populaires</string>
+
 
     <!-- Descriptions d'image pour l'accessibilité -->
     <string name="serie_image">Image de la série</string>
@@ -25,5 +30,6 @@
     <string name="search">Recherche</string>
     <string name="series">Séries</string>
     <string name="welcome">Bienvenue !</string>
-    <!-- Ajoutez d'autres chaînes au besoin -->
+    <string name="see_more">Voir plus</string>
+
 </resources>

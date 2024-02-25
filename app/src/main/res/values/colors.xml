@@ -10,5 +10,7 @@
     <color name="text_bottom_bar_select">#12273C</color>
     <color name="text_bottom_bar">#778BA8</color>
     <color name="text">#</color>
+    <color name="see_more_background_color">#000000</color>
+
 
 </resources>
