@@ -43,32 +43,20 @@
         app:layout_constraintVertical_bias="0.0"
         app:navGraph="@navigation/mobile_navigation" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:padding="16dp"
-        android:background="#6F8FEA"
-        android:layout_alignParentBottom="true">
-
-        <!-- Icone Accueil -->
-        <ImageView
-            android:id="@+id/ic_home"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_home"
-            android:contentDescription="@string/home"
-            android:clickable="true"
-            android:focusable="true"
-            android:padding="8dp"
-            android:layout_margin="8dp" />
-
-        <!-- Icône Comics -->
-        <!-- Répétez pour chaque icône en ajustant les id et les drawables comme nécessaire -->
-
-    </LinearLayout>
+        android:background="@color/background_bottom_bar"
+        app:itemIconTint="@color/text_bottom_bar"
+        app:itemTextColor="@color/text_bottom_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 
