@@ -44,17 +44,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/mobile_navigation" />
 
+
     <androidx.cardview.widget.CardView
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="395dp"
+        android:layout_height="273dp"
         android:layout_margin="8dp"
 
+        app:cardBackgroundColor="@color/fond_carte"
         app:cardCornerRadius="20dp"
         app:cardElevation="4dp"
-        app:cardBackgroundColor="@color/fond_carte"
-        >
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="108dp">
 
         <LinearLayout
             android:layout_width="357dp"
@@ -73,19 +73,19 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
                 android:layout_weight="1"
                 android:drawableStart="@drawable/orange_circle"
                 android:drawablePadding="8dp"
                 android:paddingTop="22dp"
                 android:text="@string/series_list"
-                android:textColor="#FFFFFF"
-                android:layout_marginStart="17dp"
-                />
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/seeMoreButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="14dp"
                 android:background="@drawable/see_more_background"
                 android:clickable="true"
                 android:focusable="true"
@@ -94,29 +94,28 @@
                 android:paddingEnd="16dp"
                 android:paddingBottom="8dp"
                 android:text="@string/see_more"
-                android:textColor="#FFFFFF"
-                android:layout_marginEnd="14dp" />
+                android:textColor="#FFFFFF" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="357dp"
             android:layout_height="329dp"
+            android:layout_marginTop="200dp"
             android:orientation="horizontal"
-            android:padding="20dp"
-            android:layout_marginTop="200dp">
+            android:padding="20dp">
 
             <ImageView
                 android:id="@+id/serie_thumbnail"
                 android:layout_width="150dp"
                 android:layout_height="177dp"
+                android:layout_marginTop="68dp"
                 android:paddingTop="68dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/avenger"
-                android:layout_marginTop="68dp"/>
+                app:srcCompat="@drawable/avenger" />
             <!-- Autres détails de la série comme le studio, le nombre d'épisodes, etc. -->
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
-
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
