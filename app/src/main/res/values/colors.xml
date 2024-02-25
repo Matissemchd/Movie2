@@ -9,4 +9,6 @@
     <color name="fond_bottom_bar_select">#12273C</color>
     <color name="text_bottom_bar_select">#12273C</color>
     <color name="text_bottom_bar">#778BA8</color>
+    <color name="text">#</color>
+
 </resources>

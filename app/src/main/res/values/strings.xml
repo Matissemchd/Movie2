@@ -24,5 +24,6 @@
     <string name="movies">Films</string>
     <string name="search">Recherche</string>
     <string name="series">Séries</string>
+    <string name="welcome">Bienvenue !</string>
     <!-- Ajoutez d'autres chaînes au besoin -->
 </resources>
