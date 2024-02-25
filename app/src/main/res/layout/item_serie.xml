@@ -60,7 +60,8 @@
                 android:layout_height="177dp"
                 android:paddingTop="68dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/avenger" />
+                app:srcCompat="@drawable/avenger"
+                android:layout_marginTop="68dp"/>
             <!-- Autres détails de la série comme le studio, le nombre d'épisodes, etc. -->
 
         </LinearLayout>
