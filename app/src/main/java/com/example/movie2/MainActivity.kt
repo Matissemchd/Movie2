@@ -17,32 +17,28 @@ class MainActivity : AppCompatActivity() {
             when (item.itemId) {
                 R.id.navigation_home -> {
                     // Naviguer vers le fragment d'accueil
-                    navController.navigate(R.id.navigation_home)
                     true
                 }
                 R.id.navigation_comics -> {
                     // Naviguer vers le fragment de comics
-                    navController.navigate(R.id.navigation_comics)
                     true
                 }
                 R.id.navigation_movies -> {
                     // Naviguer vers le fragment de films
-                    navController.navigate(R.id.navigation_movies)
                     true
                 }
                 R.id.navigation_search -> {
                     // Naviguer vers le fragment de recherche
-                    navController.navigate(R.id.navigation_search)
                     true
                 }
                 R.id.navigation_series -> {
                     // Naviguer vers le fragment de séries
-                    navController.navigate(R.id.navigation_series)
                     true
                 }
                 else -> false
             }
-            true
         }
+        // Assurez-vous que la navigation est configurée correctement avec le NavController
+        navView.setupWithNavController(navController)
     }
 }
