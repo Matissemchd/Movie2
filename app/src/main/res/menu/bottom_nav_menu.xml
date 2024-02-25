@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_acceuil"
+        android:icon="@drawable/ic_home"
         android:title="@string/home" />
     <item
         android:id="@+id/navigation_comics"
@@ -13,13 +13,12 @@
         android:icon="@drawable/ic_series"
         android:title="@string/series" />
     <item
-        android:id="@+id/navigation_movies"
-        android:icon="@drawable/ic_movies"
+        android:id="@+id/navigation_films"
+        android:icon="@drawable/ic_films"
         android:title="@string/movies" />
     <item
         android:id="@+id/navigation_search"
         android:icon="@drawable/ic_search"
         android:title="@string/search" />
-
 </menu>
 
