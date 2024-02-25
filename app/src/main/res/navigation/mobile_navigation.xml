@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@+id/navigation_home">
+
+    <!-- Accueil Fragment -->
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.movie2.ui.home.HomeFragment"
+        android:label="@string/home" />
+
+    <!-- Comics Fragment -->
+    <fragment
+        android:id="@+id/navigation_comics"
+        android:name="com.example.movie2.ui.comics.ComicsFragment"
+        android:label="@string/comics" />
+
+    <!-- Séries Fragment -->
+    <fragment
+        android:id="@+id/navigation_series"
+        android:name="com.example.movie2.ui.series.SeriesFragment"
+        android:label="@string/series" />
+
+    <!-- Films Fragment -->
+    <fragment
+        android:id="@+id/navigation_films"
+        android:name="com.example.movie2.ui.films.FilmsFragment"
+        android:label="@string/movies" />
+
+    <!-- Recherche Fragment -->
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.movie2.ui.search.SearchFragment"
+        android:label="@string/search"/>
+</navigation>
